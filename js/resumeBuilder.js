@@ -3,7 +3,7 @@ var bio = {
     "role":"Web Developer",
     "contacts":{
         "email":"zhoumy66@gmail.com",
-        "github":"https://github.com/sunnymary",
+        "github":"sunnymary",
         "mobile":"817-713-6239",
         "location":"Fort Worth, TX"
     },
@@ -20,12 +20,13 @@ var bio = {
         var formattedBiopic = HTMLbioPic.replace("%data%", bio.biopic);
         var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
-        $("#header").prepend(formattedLocation);
-        $("#header").prepend(formattedPhone);
-        $("#header").prepend(formattedGithub);
-        $("#header").prepend(formattedEmail);
         $("#header").prepend(formattedRole);
         $("#header").prepend(formattedName);
+
+        $("#topContacts").append(formattedPhone);
+        $("#topContacts").append(formattedEmail);
+        $("#topContacts").append(formattedGithub);
+        $("#topContacts").append(formattedLocation);
 
         $("#header").append(formattedBiopic);
         $("#header").append(formattedWelcomeMsg);
