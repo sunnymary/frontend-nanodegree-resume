@@ -2,19 +2,20 @@ var bio = {
     "name":"Miaoyun Zhou",
     "role":"Web Developer",
     "contacts":{
-        "email":"zhoumy66@gmail.com",
+        "email":"mary.zhou.coding@gmail.com",
         "github":"sunnymary",
+        "githubLink":"https://github.com/sunnymary",
         "mobile":"817-713-6239",
         "location":"Fort Worth, TX"
     },
     "welcomeMessage":"Welcome you to my homepage!",
-    "biopic":"./images/fry.jpg",
+    "biopic":"./images/biopic.jpg",
     "skills":["Coding","Web Development","Graphic Design","Planning"],
     "display":function(){
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-        var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-        var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+        var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email).replace("%data%", bio.contacts.email);
+        var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.githubLink).replace("%data%", bio.contacts.github);
         var formattedPhone = HTMLmobile.replace("%data%", bio.contacts.mobile);
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
         var formattedBiopic = HTMLbioPic.replace("%data%", bio.biopic);
@@ -38,6 +39,11 @@ var bio = {
                 $("#skills").append(formattedSkills);
             });
         }
+
+        $("#footerContacts").append(formattedPhone);
+        $("#footerContacts").append(formattedEmail);
+        $("#footerContacts").append(formattedGithub);
+        $("#footerContacts").append(formattedLocation);
     }
 };
 
@@ -86,10 +92,16 @@ var work = {
 var projects = {
     "projects":[
         {
-            "title":"Personal Portfolio",
-            "dates":"12/2016 - 01/2017",
-            "description":"Course Project for Udacity Front End Web Developer Nanodegree. Build a personal webpage to show different projects using Html, Css and Javascript. This project apply the concept of sematic HTML, responsive website design and grid-based webpage layout.",
+            "title":"Online Resume",
+            "dates":"01/2016 - 02/2017",
+            "description":"Course Project for Udacity Front End Web Developer Nanodegree. Build a online resume, using Javascript to build resume data and compile into a HTML Template.",
             "image":[]
+        },
+        {
+            "title":"Personal Portfolio",
+            "dates":"12/2016 - 02/2017",
+            "description":"Course Project for Udacity Front End Web Developer Nanodegree. Build a personal webpage to show different projects using Html, Css and Javascript. This project apply the concept of sematic HTML, responsive website design and grid-based webpage layout.",
+            "image":["./images/portfolio1.jpg", "./images/portfolio2.jpg", "./images/portfolio3.jpg"]
         },
         {
             "title":"Animal Trading Cards",

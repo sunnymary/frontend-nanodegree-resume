@@ -92,6 +92,11 @@ a {
   display: block;
 }
 
+.inline {
+  display: inline;
+  padding: 5px;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -129,7 +134,16 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: gray;
+  background-color: #4a4a4a;
+/*  background-image: url("./images/cover-test.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  url("./images/cover-test.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;*/
 }
 
 .flex-box {
@@ -164,7 +178,10 @@ ul {
 }
 
 img {
-  padding: 10px;
+  padding-left: 0;
+  padding-right: 10px;
+  max-width: 100%;
+  width: 350px;
 }
 
 span {
@@ -198,6 +215,11 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  img {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
   }
 }
 
