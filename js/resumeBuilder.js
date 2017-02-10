@@ -9,7 +9,7 @@ var bio = {
         "location":"Fort Worth, TX"
     },
     "welcomeMessage":"Welcome to my homepage!",
-    "biopic":"./images/biopic.jpg",
+    "biopic":"./images/biopic.png",
     "skills":["Coding","Web Development","Graphic Design","Planning"],
     "display":function(){
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
