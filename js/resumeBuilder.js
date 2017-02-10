@@ -8,7 +8,7 @@ var bio = {
         "mobile":"817-713-6239",
         "location":"Fort Worth, TX"
     },
-    "welcomeMessage":"Welcome you to my homepage!",
+    "welcomeMessage":"Welcome to my homepage!",
     "biopic":"./images/biopic.jpg",
     "skills":["Coding","Web Development","Graphic Design","Planning"],
     "display":function(){
