@@ -130,8 +130,6 @@ var projects = {
     }
 };
 
-
-
 var education = {
     "schools":[
         {
