@@ -21,277 +21,278 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
-  font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
 }
 
 #main {
-  max-width: 1200px;
-  margin: 0 auto;
-  border: solid 1px #525564;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 1px #525564;
 }
 
 .clear-fix {
-  overflow: auto;
+    overflow: auto;
 }
 
 .education-entry,
 .work-entry,
 .project-entry {
-  padding: 10px 5%;
+    padding: 10px 5%;
 }
 
 h1 {
-  font-size: 40px;
-  color: #e48364;
-  line-height: 48px;
-  display: inline;
+    font-size: 40px;
+    color: #e48364;
+    line-height: 48px;
+    display: inline;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #74828f;
-  line-height: 29px;
-  padding: 10px;
-  margin-top: 10px;
-  text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #74828f;
+    line-height: 29px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #96c0ce;
-  line-height: 29px;
+    font-style: italic;
+    font-size: 20px;
+    color: #96c0ce;
+    line-height: 29px;
 }
 
 h4 {
-  font-size: 18px;
-  color: #4a4a4a;
-  line-height: 20px;
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 20px;
 }
 
 h2,
 h3 {
-  padding:10px 5%;
-
+    padding: 10px 5%;
 }
 
 h4,
 h5 {
-  padding:10px 0;
-
+    padding: 10px 0;
 }
 
 .date-text {
-  font-style: italic;
-  font-size: 16px;
-  color: #999;
-  line-height: 16px;
-  float: left;
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    line-height: 16px;
+    float: left;
 }
 
 .location-text {
-  font-style: italic;
-  font-size: 16px;
-  color: #999;
-  line-height: 16px;
-  float: right;
-
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    line-height: 16px;
+    float: right;
 }
 
 p {
-  font-size: 16px;
-  color: #333;
-  line-height: 21px;
-  padding-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+    line-height: 21px;
+    padding-bottom: 5px;
 }
 
 a {
-  color: #1199c3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+    color: #1199c3;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
 }
 
 .inline {
-  display: inline;
-  padding: 5px;
+    display: inline;
+    padding: 5px;
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 20px;
-  color: #fef6eb;
-  line-height: 28px;
+    font-style: italic;
+    font-size: 20px;
+    color: #fef6eb;
+    line-height: 28px;
 }
 
 #skills-h3 {
-  color: #e48364;
-  display: none;
-  padding: 20px 5px 10px 5px;
+    color: #e48364;
+    display: none;
+    padding: 20px 5px 10px 5px;
 }
 
 .orange {
-  background-color: #e48364;
+    background-color: #e48364;
 }
 
 .orange-text {
-  color: #e48364;
+    color: #e48364;
 }
 
 .white-text {
-  font-weight: bold;
-  color: #fef6eb;
+    font-weight: bold;
+    color: #fef6eb;
 }
 
 .gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  clear:both;
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    clear: both;
 }
 
 .dark-gray {
-  background-color: #525564;
+    background-color: #525564;
 }
 
 #header {
-  background-color: #525564;
-  background: linear-gradient(rgba(82, 85, 100, 0.7), rgba(82, 85, 100, 0.7)),
+    background-color: #525564;
+    background: linear-gradient(rgba(82, 85, 100, 0.7), rgba(82, 85, 100, 0.7)),
   url("../images/map.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .subtitle {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 0 20px 0;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
 }
 
 .flex-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
 }
 
 .center-content {
-  padding: 2.5% 5%;
+    padding: 2.5% 5%;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .biopic {
-  float: right;
-  padding: 5px;
-  width: 160px;
-  height: 160px;
-  border: 1px #fef6eb solid;
-  border-radius: 85px;
-  display: none;
-  margin-top: 20px;
+    float: right;
+    padding: 5px;
+    width: 160px;
+    height: 160px;
+    border: 1px #fef6eb solid;
+    border-radius: 85px;
+    display: none;
+    margin-top: 20px;
 }
 
 img {
-  max-width: 100%;
-  width: 310px;
-  margin: 0 10px 10px 0;
-  padding: 5px;
-  border: 1px solid #96c0ce;
+    max-width: 100%;
+    width: 310px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    border: 1px solid #96c0ce;
 }
 
 span {
-  padding: 5px;
+    padding: 5px;
 }
 
 #map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
+    display: block;
+    height: 100%;
+    margin: 0 5%;
 }
 
 #mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 #lets-connect {
-  text-align: center;
+    text-align: center;
 }
 
 #footerContacts {
-  margin-top: 10px;
-  padding: 10px 5% 20px 5%;
+    margin-top: 10px;
+    padding: 10px 5% 20px 5%;
 }
 
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
+    #lets-connect {
+        margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width:900px) {
-  .flex-box {
-    justify-content: space-around;
-  }
+    .flex-box {
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
-  .welcome-message {
-    display: none;
-  }
-  img {
-    display: block;
-    padding: 0;
-    margin: 10px auto;
-  }
+    #lets-connect {
+        margin-top: 10%;
+    }
+
+    .welcome-message {
+        display: none;
+    }
+
+    img {
+        display: block;
+        padding: 0;
+        margin: 10px auto;
+    }
 }
 
 @media only screen and (min-width: 750px) {
-  #skills-h3,
+    #skills-h3,
   .biopic {
-    display: block;
-  }
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-  h1 {
-    display: block;
-    font-size: 36px;
-    line-height: 60px;
-  }
-  .subtitle {
-    padding-left: 5px;
-  }
-  #map {
-    height: 95%;
-  }
+    h1 {
+        display: block;
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .subtitle {
+        padding-left: 5px;
+    }
+
+    #map {
+        height: 95%;
+    }
 }
 
 @media only screen and (max-width: 350px) {
-  #map {
-    height: 90%;
-  }
+    #map {
+        height: 90%;
+    }
 }
