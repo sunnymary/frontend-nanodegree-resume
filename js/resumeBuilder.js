@@ -89,7 +89,14 @@ var work = {
 
 //store project data in projects object
 var projects = {
-    "projects": [{
+    "projects": [
+        {
+            "title": "Arcade Game",
+            "dates": "02/2017 - 03/2017",
+            "description": "Course Project for Udacity Front End Web Developer Nanodegree. Practice object-oriented-programming in Javascript by creating game objects(Enemy, Player, Item) using Contructors and class prototype functions, and then render or move them on HTML Canvas.",
+            "images": ["./images/arcadeGame1.jpg"]
+        },
+        {
             "title": "Online Resume",
             "dates": "01/2016 - 02/2017",
             "description": "Course Project for Udacity Front End Web Developer Nanodegree. Build a online resume, using Javascript to build resume data and compile into a HTML Template.",
