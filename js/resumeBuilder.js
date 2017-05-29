@@ -91,6 +91,12 @@ var work = {
 var projects = {
     "projects": [
         {
+            "title": "Website Optimization",
+            "dates": "03/2017 - 04/2017",
+            "description": "Course Project for Udacity Front End Web Developer Nanodegree. The challenge for this project is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible.",
+            "images": []
+        },
+        {
             "title": "Arcade Game",
             "dates": "02/2017 - 03/2017",
             "description": "Course Project for Udacity Front End Web Developer Nanodegree. Practice object-oriented-programming in Javascript by creating game objects(Enemy, Player, Item) using Contructors and class prototype functions, and then render or move them on HTML Canvas.",
